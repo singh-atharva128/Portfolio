@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "be vietnam";
+}
+
+/*nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: 100px;
+    height: 100px;
+}*/
+
+/*nav .img img{
+    float: left;
+    width:30%;
+    margin-top: 30px;
+    margin-left: 5px;;
+    /*justify-content: space-evenly;
+    display: inline;
+
+}*/
+
+nav .menu{
+    width: 100%;
+    overflow: hidden;
+}
+
+nav .menu li {
+    float: left;
+    width: 16%;
+    text-align: center;
+    list-style-type: none;
+    padding: 12px 0px;
+    
+    /*display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left: 200px;*/
+}
+
+nav .menu li img
+{
+    width:100%;
+    margin-right: 32px;;
+}
+
+nav .menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav .menu li a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    transition: 0.3s;
+}
